@@ -60,3 +60,15 @@
   * 刷新了多项NLP任务的记录.
 
 ### 4. BERT 的优缺点
+##### 优点
+  * BERT 的泛化性能极强. 输入输出层的设计也较为简单, 适合多任务.  
+  * BERT 在预训练阶段由于利用了 Attention 机制, 语言模型的实际考量效果是双向的.
+  * BERT 的微调简便, 成本小.
+##### 缺点
+  * BERT 的算力开销过大.
+  * BERT 在预训练过程中由于利用了 '[MASK]' 使得最终收敛较慢.
+
+###### 参考资料:
+    https://blog.csdn.net/sunhua93/article/details/102764783  
+    https://blog.csdn.net/yangfengling1023/article/details/84025313?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.control&spm=1001.2101.3001.4242
+    
